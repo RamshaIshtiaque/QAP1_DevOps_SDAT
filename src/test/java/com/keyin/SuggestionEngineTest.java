@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 
 //@ExtendWith(MockitoExtension.class)
 public class SuggestionEngineTest {
-    private SuggestionEngine suggestionEngine = new SuggestionEngine();
+    private final SuggestionEngine suggestionEngine = new SuggestionEngine();
 
 //    @Mock
 //    private SuggestionsDatabase mockSuggestionDB;
